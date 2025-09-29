@@ -1,0 +1,21 @@
+django-admin startproject "nome do projeto"
+django-admin startapp "nome do app"
+
+cadastrar app no projeto -> settings.py
+
+rodar projeto -> python3 ./manage.py runserver
+
+/=====================\
+apps estão dentro de um projeto
+
+rota -> views -> html
+
+
+
+/==== banco de dados ====\
+Migrations:
+models -> transforma em sql -> cria as tabelas dentro do bd
+
+
+python3 ./manage.py makemigrations
+python3 ./manage.py migrate
